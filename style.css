@@ -1,0 +1,204 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.carousel-item{
+    height: 600px;
+}
+.carousel-item img{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.accordion{
+    padding: 30px;
+}
+
+.courses-section{
+padding:60px 0;
+}
+
+.courses-section h1{
+font-weight:600;
+color:#212529;
+}
+
+.card img{
+width:100%;
+height:auto;
+display:block;
+}
+
+.card{
+border:1px solid #e6e6e6;
+border-radius:8px;
+overflow:hidden;
+}
+
+.card-body{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.card-text{
+font-size:14px;
+color:#555;
+}
+
+.btn-primary{
+background:#212529;
+border:none;
+padding:8px 16px;
+font-size:14px;
+border-radius:6px;
+transition:0.2s;
+}
+
+.btn-primary:hover{
+background:#637990;
+}
+
+
+
+.course-page{
+padding:80px 0;
+display:flex;
+justify-content:center;
+}
+
+.course-page .container{
+max-width:1100px;
+}
+
+.course-wrapper{
+align-items:center;
+}
+
+.course-img{
+width:100%;
+max-width:520px;
+border-radius:10px;
+}
+
+.course-content{
+padding-left:40px;
+}
+
+.course-content h1{
+font-size:36px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.course-desc{
+font-size:16px;
+color:#555;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+.course-details{
+margin-bottom:25px;
+}
+
+.detail{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+font-size:15px;
+color:#333;
+}
+
+.detail i{
+font-size:18px;
+}
+
+.enroll-btn{
+background:#212529;
+color:white;
+border:none;
+padding:12px 26px;
+border-radius:6px;
+font-size:15px;
+transition:0.2s;
+}
+
+.enroll-btn:hover{
+background:#343a40;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+padding:80px 20px;
+background:#f8f9fa;
+}
+
+.contact h1{
+font-size:34px;
+font-weight:600;
+color:#212529;
+}
+
+.contact-info{
+background:#fff;
+padding:35px;
+border-radius:8px;
+border:1px solid #e6e6e6;
+height:100%;
+}
+
+.contact-info h4{
+margin-bottom:15px;
+font-weight:600;
+}
+
+.contact-info p{
+font-size:15px;
+color:#555;
+margin-bottom:20px;
+}
+
+.info-item{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:12px;
+font-size:15px;
+color:#333;
+}
+
+.info-item i{
+font-size:18px;
+color:#212529;
+}
+
+.contact-form{
+background:#fff;
+padding:35px;
+border-radius:8px;
+border:1px solid #e6e6e6;
+}
+
+.contact-form .form-control{
+border-radius:6px;
+padding:10px;
+}
